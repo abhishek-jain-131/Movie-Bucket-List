@@ -1,0 +1,53 @@
+body {
+  padding-bottom: 140px;
+  font-family: "Alegreya", serif !important;
+  background-color: #AF8F6F;
+}
+
+h1 {
+  color: #543310;
+}
+
+.box {
+  background-color: #F8F4E1;
+  width: 450px;
+  border-radius: 50px;
+  box-shadow: rgba(116, 81, 45, 0.5) 0px 2px 10px 20px;
+  color: #543310;
+}
+
+#submit-button {
+  background-color: #74512D;
+  border: none;
+}
+
+#submit-button:active {
+  background-color: #543310;
+}
+
+.delete {
+  color: red;
+}
+
+#delete:active {
+  border-color: red !important;
+}
+
+.edit {
+  color: #00d062;
+}
+
+#edit:active {
+  border-color: #00d062 !important;
+}
+
+footer {
+  background-color: #543310;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  color: #F8F4E1;
+}
+
+.movie-name {
+  transition: all 0.2s ease-in-out;
+}
